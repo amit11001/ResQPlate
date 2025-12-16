@@ -85,39 +85,55 @@ const About = () => {
         </div>
       </section>
 
-      {/* --- TECH STACK / PROJECT INFO --- */}
-      <section className="py-20 px-6 bg-white">
-        <div className="max-w-5xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-6 text-gray-800">
-            Project Overview
-          </h2>
-          <p className="text-gray-600 max-w-3xl mx-auto leading-relaxed mb-8">
-            ResQPlate is developed as a full-stack MERN application using
-            MongoDB, Express.js, React.js, and Node.js. It integrates secure
-            authentication, role-based access control, and real-time map
-            visualization to ensure scalability and reliability.
-          </p>
+      {/* --- VALUES & SAFETY COMMITMENT --- */}
+<section className="py-20 px-6 bg-white">
+  <div className="max-w-6xl mx-auto text-center">
+    <h2 className="text-3xl font-bold mb-6 text-gray-800">
+      Our Values & Safety Commitment
+    </h2>
 
-          <div className="grid md:grid-cols-4 gap-6 text-sm">
-            <div className="bg-gray-50 p-5 rounded-xl shadow-sm">
-              <strong>Frontend</strong>
-              <p className="text-gray-500 mt-1">React.js</p>
-            </div>
-            <div className="bg-gray-50 p-5 rounded-xl shadow-sm">
-              <strong>Backend</strong>
-              <p className="text-gray-500 mt-1">Node & Express</p>
-            </div>
-            <div className="bg-gray-50 p-5 rounded-xl shadow-sm">
-              <strong>Database</strong>
-              <p className="text-gray-500 mt-1">MongoDB Atlas</p>
-            </div>
-            <div className="bg-gray-50 p-5 rounded-xl shadow-sm">
-              <strong>Maps</strong>
-              <p className="text-gray-500 mt-1">Leaflet + OSM</p>
-            </div>
-          </div>
-        </div>
-      </section>
+    <p className="text-gray-600 max-w-3xl mx-auto leading-relaxed mb-12">
+      At ResQPlate, trust and responsibility are at the core of everything we do.
+      Our platform is built to ensure food safety, transparency, and dignity for
+      every individual involved in the donation process.
+    </p>
+
+    <div className="grid md:grid-cols-4 gap-8 text-sm">
+      <div className="bg-green-50 p-6 rounded-2xl shadow-sm">
+        <div className="text-3xl mb-3">🛡️</div>
+        <h4 className="font-bold mb-2 text-green-700">Food Safety</h4>
+        <p className="text-gray-600">
+          Expiry-based listings ensure only safe and consumable food is shared.
+        </p>
+      </div>
+
+      <div className="bg-green-50 p-6 rounded-2xl shadow-sm">
+        <div className="text-3xl mb-3">🔐</div>
+        <h4 className="font-bold mb-2 text-green-700">Secure Access</h4>
+        <p className="text-gray-600">
+          Role-based authentication protects donors and verified NGOs.
+        </p>
+      </div>
+
+      <div className="bg-green-50 p-6 rounded-2xl shadow-sm">
+        <div className="text-3xl mb-3">⚖️</div>
+        <h4 className="font-bold mb-2 text-green-700">Transparency</h4>
+        <p className="text-gray-600">
+          Every donation follows a clear claim and pickup workflow.
+        </p>
+      </div>
+
+      <div className="bg-green-50 p-6 rounded-2xl shadow-sm">
+        <div className="text-3xl mb-3">🌍</div>
+        <h4 className="font-bold mb-2 text-green-700">Social Impact</h4>
+        <p className="text-gray-600">
+          Building sustainable communities through collaboration.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* --- FOOTER CTA --- */}
       <section className="bg-gray-900 text-white py-14 text-center">
